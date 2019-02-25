@@ -1,0 +1,32 @@
+{
+  "name": "borntox",
+  "version": "1.0.0",
+  "description": "discord bot to generate born to x memes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JesseBoogaard/BornToX.git"
+  },
+  "keywords": [
+    "born",
+    "to",
+    "x",
+    "forced",
+    "to",
+    "y",
+    "bot"
+  ],
+  "author": "JesseBoogaard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JesseBoogaard/BornToX/issues"
+  },
+  "homepage": "https://github.com/JesseBoogaard/BornToX#readme",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "dotenv": "^6.2.0"
+  }
+}
