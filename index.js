@@ -11,7 +11,7 @@ client.on('message', msg => {
         return new Promise((fulfill, reject) => {
             BTX.GenerateNew().then((res) => {
                 if(res != 'You died.'){
-                    fs.appendFileSync("results.txt", res, "UTF-8");
+                    fs.appendFileSync("results.txt", `\n${res}`, "UTF-8");
                     fulfill(msg.channel.send(res));
                 } else {
                     reject(msg.channel.send('Born to fail, forced to retry.'));
